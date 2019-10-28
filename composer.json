@@ -15,5 +15,6 @@
         "psr-4": {
             "HTTP\\": "src"
         }
-    }
+    },
+    "license": "MIT"
 }
