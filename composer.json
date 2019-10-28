@@ -16,5 +16,6 @@
             "HTTP\\": "src"
         }
     },
-    "license": "MIT"
+    "license": "MIT",
+    "minimum-stability": "stable"
 }
