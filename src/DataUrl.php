@@ -10,6 +10,7 @@ class DataUrl
     public function __construct(string $dataurl)
     {
         list($this->mime_type, $data) = explode(';', $dataurl);
+        list(, $this->mime_type) = explode(":", $this->mime_type);
         list(, $data) = explode(',', $data);
         $this->data = base64_decode($data);
     }
